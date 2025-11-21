@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Armor Eraser",
+  "external_title": "Armor Eraser",
+  "actions": [
+    {
+      "label": "Erase Armor",
+      "tooltip": "Changes held armor asset to make it invisible while wearing",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger ae_erase"
+      }
+    },
+    {
+      "label": "Un-Erase Armor",
+      "tooltip": "Changes held armor asset to make it visible while wearing",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger ae_unerase"
+      }
+    }
+  ]
+}
