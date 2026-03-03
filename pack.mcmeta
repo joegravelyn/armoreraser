@@ -1,7 +1,7 @@
 {
   "pack": {
     "min_format": 88,
-    "max_format": 88,
+    "max_format": 94.1,
     "description": "Modify player armor so that it is invisible while wearing it."
   }
 }
